@@ -1,0 +1,101 @@
+.chat {
+    background-color:#1F1F23;
+    width: 380px;
+    min-height: 100%;
+    position: fixed;
+    right: 0;
+    margin-top: 50px;
+}
+
+.stream-chat,
+.gift {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #EFEFF1;
+    border-bottom:  1px solid #303032;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.stream-chat svg,
+.stream-chat span {
+    margin: 10px;
+    font-size: 12px;
+}
+.stream-chat svg {
+    font-size: 20px;
+}
+
+.gift {
+    font-size: 12px;
+    height: 80px;
+}
+
+.chat-live {
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.chat-live span {
+    display: block;
+    font-size: 12px;
+    margin: 10px;
+    color: #9797A1;
+}
+
+
+.chat-live .comment-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chat-live .comment-box  input[type="text"] {
+    margin: 10px;
+    width: 75%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: #464649;
+    color: #C4C4C5;
+}
+
+.chat-live .comment-box button {
+    margin: 5px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #9147FF;
+    color: white;
+    font-weight: bold;
+    line-height: -20px;
+}
+
+.chat-live .comment-box button:hover {
+    background-color: #873bfa;
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.comment .comment_creator {
+    display: inline;
+    font-weight: bold;
+    color:#873bfa;
+    margin: 0;
+    margin-right: 1px;
+}
+.comment .comment_description {
+    display: inline;
+    color: white;
+    margin-right: 2px;
+}

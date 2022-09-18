@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import {useState} from 'react'
 import './App.css';
-
+import Header from './components/Header';
+import Channels from './components/Channels';
+import Channel from './components/Channel';
+import Chat from './components/Chat'
 function App() {
+
+  const [channelSelected, setChannelSelected] = useState({});
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header/>
+      <div className='father'>
+        <Channels setChannelSelected={setChannelSelected}/>
+        <Channel channelSelected={channelSelected}/>
+        <Chat/>
+      </div>
+    </>
   );
 }
 

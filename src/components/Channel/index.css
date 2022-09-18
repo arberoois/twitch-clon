@@ -1,0 +1,116 @@
+.streamer_channel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #0E0E10;
+    margin-top: 50px;
+    width: 1223px;
+}
+
+.channel_main {
+    height: 800px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.channel_main span {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.channel_main .settings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.channel_main .settings svg {
+    margin: 5px;
+}
+
+.streamer_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.streamer_info .stream {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.streamer_info .stream  img {
+    width: 65px;
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+
+}
+
+.streamer_info .stream div {
+    display: flex;
+    flex-direction: column;
+}
+
+.streamer_info .stream div .category {
+    color: #8183FF;
+}
+
+
+.streamer_info .actions button {
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.streamer_info .actions button svg {
+    margin-right: 5px ;
+}
+
+.streamer_info .actions .follow {
+    background-color: #9147FF;
+}
+
+.streamer_info .actions .follow:hover {
+    background-color: #7a3bd8;
+}
+
+.streamer_info .actions .unfollow {
+    background-color: #3A3A3D;
+}
+
+.streamer_info .actions .unfollow svg {
+    margin: 0;
+}
+
+.streamer_info .actions .subscribe {
+    background-color: #323234;
+}
+
+
+.streamer_info .actions .subscribe:hover {
+    background-color: #262627;
+}
+
+
+
+

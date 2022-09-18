@@ -1,0 +1,87 @@
+.channels {
+    background-color:#1F1F23;
+    width: 300px;
+    padding: 5px;
+    min-height: 100vh;
+    margin-top: 50px;
+}
+
+.channels div  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 10px;
+    font-size: 14px; 
+    color: #EFEFF1;
+    font-weight: bold;
+}
+
+ .more {
+    display: inline;
+    color:#8785FF ;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.more:hover {
+   color: #7b7aec;
+}
+
+
+
+
+.channel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.channel:hover {
+    background-color: #28282c;
+}
+
+.channel .data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.channel .data h2 {
+    font-size: 12px;
+}
+
+.channel .data p {
+    font-size: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #ADA49C;
+
+}
+
+.channel .data .description {
+    display: flex;
+    flex-direction: column;
+}
+
+.channel .live svg {
+    color: red;
+    padding-right: 5px;
+}
+.channel img {
+    height: 20px;
+    border-radius: 100%;
+}
+
+.channel .offline {
+    font-size: 12px;
+}
+.follow_channels {
+    display: flex;
+    flex-direction: column !important;
+}
+
